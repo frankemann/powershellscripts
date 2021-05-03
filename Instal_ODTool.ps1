@@ -3,8 +3,8 @@
 # Force use of TLS 1.2
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
-$PathToFile1 = "https://kontorvarehuset-my.sharepoint.com/:u:/g/personal/frank_kontorvarehuset_no1/EYF8Bm7bufhEqnkN4kWYESYBE_13xWrnGpZLQU9OpAxnaA?download=1"
-$PathToFile2 = "https://kontorvarehuset-my.sharepoint.com/:u:/g/personal/frank_kontorvarehuset_no1/EaUghTsvesRDkjrQ1EEvYPAB9BrWlouYzoASjNnSakRRtg?download=1"
+$PathToFile1 = "Url to OneDriveLib.dll"
+$PathToFile2 = "Url to OneDriveLib.pdb"
 
 If(!(test-path C:\ODTool\))
 {
